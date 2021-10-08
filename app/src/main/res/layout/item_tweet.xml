@@ -19,7 +19,7 @@
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         android:fontFamily="@font/hind_semibold"
-        tools:text="Stormborn9" />
+        tools:text="Amanda Whisenand" />
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -53,4 +53,15 @@
         android:layout_marginRight="0dp"
         android:fontFamily="@font/hind_light"
         tools:text="33 mins ago" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/tvScreenName"
+        android:fontFamily="@font/hind_light"
+        tools:text="/@Stormborn9" />
 </RelativeLayout>
